@@ -16,4 +16,4 @@ To use the 8-bit comparator project, two 8-bit binary numbers must be applied to
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+The 8-bit comparator project requires very minimal external hardware because it is a simple combinational digital circuit. The primary hardware requirements include a power supply, input switches, and output indicators such as LEDs. The two 8-bit input values can be provided using switches, DIP switches, or FPGA/Tiny Tapeout input pins connected to ui_in and uio_in. The output uo_out can be connected to LEDs to visually indicate the comparison result. If the output is 1, it indicates both inputs are equal; if the output is 2, it indicates the first input is greater; and if the output is 4, it indicates the first input is smaller. Since the design does not use sequential logic, external clock generation hardware is not necessary. The project can be simulated in software using Icarus Verilog and GTKWave or implemented on Tiny Tapeout-compatible hardware for real-time verification.
