@@ -27,7 +27,7 @@ module tb ();
 `endif
 
   // Instantiate DUT
-  tt_um_example user_project (
+  tt_um_comp8(
 
 `ifdef GL_TEST
       .VPWR(VPWR),
