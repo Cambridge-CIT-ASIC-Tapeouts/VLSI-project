@@ -11,7 +11,7 @@ project:
   top_module: "tt_um_comp8"
 
   source_files:
-    - "tt_um_comp8"
+    - "tt_um_comp8.v"
 
 pinout:
   ui[0]: "Input A bit 0"
